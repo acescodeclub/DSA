@@ -29,7 +29,6 @@ class Queue:
         return len(self.queue) == 0 
     
 queue = Queue()
-second = Queue()
 print(queue.isEmpty()) # verify that the queue is empty
 # So the queue is going to be used to keep track of some orders in a restaurant
 orders = ['order 1', 'order 2', 'order 3', 'order 4', 'order 5']
