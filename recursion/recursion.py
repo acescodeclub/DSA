@@ -21,8 +21,8 @@ def recursiveLoop(arr, index=0):
 # NOTE: 
 # The base case is your terminating condition otherwise your loop will run forever
 # for this example we want to call the function with a different index each time but when we reach the ...
-# ... end of the list we need to terminate the loop two first of all prevent an index out of bounds error
-# But most importantly an infinite loop because for some problems we won't get any error and the loop will run ... 
+# ... end of the list we need to terminate the loop to first of all prevent an index out of bounds error, ...
+# ... but most importantly an infinite loop because for some problems we won't get any error and the loop will run ... 
 # ... forever (Actually until your computer has had enough)
 
 regularForLoop(arr)
@@ -30,7 +30,7 @@ recursiveLoop(arr)
 
 
 # Now I'm going to divide a number by 2 continously until we get a quotient smaller than 2 (that is 1)
-# So we want to stop the loop when the remainder is smaller than two
+# So we want to stop the loop when we get to 1
 
 def divideByTwo(n, cache): 
     cache.append(n) # cache is an array that stores all our quotient values
