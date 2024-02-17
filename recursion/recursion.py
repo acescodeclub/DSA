@@ -1,5 +1,6 @@
 # Recursion is basically doing something over and over
 # With this idea in mind it means we can use recursion in place of a loop
+# In recursion we call the same function over and over to repeat a similar process instead of writing new code
 # So I'm going to loop through a list of numbers and print them out
 # I am going to use a regular for loop first then use recursion to show that we can achieve the same result
 # Read the reference book on recursion for more information

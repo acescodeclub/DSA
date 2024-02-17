@@ -13,7 +13,7 @@ class Queue:
         return self.queue[0]
     
     def push(self, value):
-        self.queue.appendleft(value)
+        self.queue.append(value)
         
     def pop(self): 
         self.queue.popleft()
